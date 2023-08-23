@@ -5,13 +5,13 @@ on:
       - opened
   branches:
     - master
-    - 'rc-*'
+    - 'dev-*'
     - 'feature-**/**'
   workflow_dispatch:
   push:
     branches:
       - master
-      - 'rc-*'
+      - 'dev-*'
       - 'feature-**/**'
     paths-ignore:
       - '.github/workflows/*'
